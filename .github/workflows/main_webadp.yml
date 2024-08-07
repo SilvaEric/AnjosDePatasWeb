@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  Local__ClientId: ${{ secrets.Local__ClientId}}
+  Local__ClientId: ${{ secrets.LOCAL__CLIENTID}}
 
 jobs:
   build:
