@@ -9,6 +9,9 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  Local__ClientId: ${{ secrets.Local__ClientId}}
+
 jobs:
   build:
     runs-on: ubuntu-latest
